@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">    
+</head>
+<body>       
+    <section>
+        <h3>11. Quotes</h3>
+        <blockquote class="quote">
+            <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae sit corrupti cumque hic, tenetur veritatis iusto. Soluta, minus earum!</p>
+            <footer>
+                <div class="media">
+                    <div class="media__image">
+                        <svg class="icon icon--primary quote__line">
+                            <use xlink:href="images/sprite.svg#line"></use>
+                        </svg>
+                    </div>
+                    <div class="media__body">
+                        <h3 class="media__title quote__author">John Smith</h3>
+                        <p class="quote__organization">ABC companry</p>
+                    </div>
+                </div>
+            </footer>
+        </blockquote>  
+    </section>
+    <section>
+        <h3>12. Grid</h3>
+        <div class="grid grid--1x2">
+            <div class="" style="background-color: gold; height: 100px;">
+            </div>
+            <div class="" style="background-color: dodgerblue; height: 100px;">
+            </div>
+        </div>       
+    </section>
+    <section>
+        <h3>12. Testimonials</h3>
+        <div class="card testimonial">
+            <div class="grid grid--1x2">
+                <div class="testimonial__image">
+                    <img src="images/testimonial.jpg" alt="A happy, smiling customer">
+                    <span class="icon-container icon-container--accent ">
+                        <svg class="icon icon--white icon-small">
+                            <use xlink:href="images/sprite.svg#quotes"></use>
+                        </svg>
+                    </span>
+                </div>     
+                <blockquote class="quote">
+                    <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae sit corrupti cumque hic, tenetur veritatis iusto. Soluta, minus earum!</p>
+                    <footer>
+                        <div class="media">
+                            <div class="media__image">
+                                <svg class="icon icon--primary quote__line">
+                                    <use xlink:href="images/sprite.svg#line"></use>
+                                </svg>
+                            </div>
+                            <div class="media__body">
+                                <h3 class="media__title quote__author">John Smith</h3>
+                                <p class="quote__organization">ABC companry</p>
+                            </div>
+                        </div>
+                    </footer>
+                </blockquote>             
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3>12. Callout</h3>
+        <div class="callout callout--primary">
+            <div class="grid grid--1x2">
+                <div class="callout__content">
+                    <h2 class="callout__heading">Ready to Get Started?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat id consequuntur sapiente obcaecati eveniet ut? Nulla sint maxime asperiores consectetur?</p>
+                </div>
+                <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+            </div>
+        </div>
+    </section>   
+    <section>
+        <h3>13. Collapsibles</h3>
+        <div class="collapsible collapsible--expanded">
+            <header class="collapsible__header">
+                <h2 class="collapsible__heading">Item 1</h2>
+                <!-- <svg class="icon icon--white collapsible__chevron">
+                  <use xlink:href="images/sprite.svg#chevron"></use>                    
+                </svg> -->
+                <img class="icon icon--white collapsible__chevron" src="images/chevron.svg" alt="">
+              </header>
+              <div class="collapsible__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, accusamus.
+              </div>
+        </div>         
+        <div class="collapsible collapsible--expanded">
+            <header class="collapsible__header">
+                <h2 class="collapsible__heading">Item 1</h2>
+                <img class="icon icon--white collapsible__chevron" src="images/chevron.svg" alt="">
+              </header>
+              <div class="collapsible__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, accusamus.
+              </div>
+        </div>           
+    </section>    
+    <script src="js/main.js"></script>
+</body>
+</html>

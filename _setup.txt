@@ -1,0 +1,22 @@
+---
+
+PROJECT SETUP
+
+0. typography: fonts + basic styles
+1. links
+2. badges
+3. lists
+4. icons
+5. 
+
+---
+
+COLOR PALETTE
+
+- Primary
+- Secondary
+- Accent
+
+---
+BOTTOM UP APPROACH              TOP DOWN
+- Component first               - Page first

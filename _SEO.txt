@@ -1,0 +1,21 @@
+SEO 
+1) title tag    
+    <title>Mosify - Go online for just $9</title>
+2) meta tag description
+    <meta name="description" content="Deploy your website in less than 60 seconds">
+3) To share/preview website on social networks e.g. fb...
+    need to set a few meta elements: title, desc, image
+    <meta property="og:title" content="Moshify...."> (Open Graph protocol)
+    <meta property="og:title" content="Moshify....">
+    <meta property="og:description" content="Moshify....">
+    <meta property="og:type" content="Moshify....">
+    <meta property="og:image" content="http://">
+    <meta property="og:url" content="https://moshify">
+-------------------------------------------------------
+HTML VALIDATOR
+https://validator.w3.org/
+-------------------------------------------------------
+CSS VALIDATOR
+https://jigsaw.w3.org/css-validator/
+
+

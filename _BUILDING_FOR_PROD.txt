@@ -1,0 +1,28 @@
+BUILDING FOR PRODUCTION
+----------------
+- Combine CSS and JS files
+- Minify JS/CSS files
+- Optimize images
+
+BUILD TOOLS
+----------------
+- Webpack (complex comfiguration)
+- Rollup
+- Parcel
+    https://parceljs.org/
+    
+Terminal windows - cmd
+----------------
+[[- node -v
+- CTRL + L : clear windows]]
+- npm init -y >> create package.json
+----------------
+- npm i -D parcel-bundler (install LOCALLY)
+    npm i -D parcel-bundler@1.12.4
+- create file: .gitignore
+- node_modules/.bin/parcel index.html
+----------------
+- npm i -g parcel-bundler@1.12.4 (install GLOBALLY)
+- parcel index.html
+- parcel build index.html >> folder dist
+
